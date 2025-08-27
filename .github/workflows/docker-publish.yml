@@ -34,7 +34,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: apettey/timer-bot
-          ref: config-port
+          ref: main
           path: timer-bot
 
       - name: Set up QEMU
